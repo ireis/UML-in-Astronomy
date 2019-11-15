@@ -1,0 +1,22 @@
+\begin{table}
+\begin{center}
+
+
+\tiny
+\begin{tabular}{l|c|c|c}
+
+\toprule
+ & Practical & Complete    & Interpretable \\
+(important for) &   (large data) & (always important) &   (complex data)      \\
+\midrule
+ Inspecting all the data &  No &   Yes & No        \\
+ Anomaly detection algorithms &  Yes &   No & No        \\
+
+\bottomrule
+\end{tabular}
+\caption{To illustrate the challenges of anomaly detection methods we compare them to the most complete 'algorithm' one can think of, inspecting the entire dataset. Anomaly detection algorithms are designed to be extremely practical, in order to allow completely automatic anomaly detection or inspection of the results by a single person. This practicality demand is coming from other fields for which these algorithms were developed (e.g. fraud detection, in which the classification as an anomaly in needed instantly). In high dimensional data such algorithms will necessarily pay for this practicality in completeness.  Another thing we would like to illustrate is that anomaly detection methods are not designed to interpret the complexity of a single object. That is, applying anomaly detection is not useful in cases where it is difficult for the astronomer to decide whether a single object is unusual. Examples for such cases are integral field spectroscopy (IFU) data, or combinations of various types of data where a single object cannot visualized. }
+\label{tab:adt}
+
+\large
+\end{center}
+\end{table}
